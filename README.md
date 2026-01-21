@@ -69,7 +69,7 @@ data_pipeline_project/
 ## ⚙️ Setup & Installation
 **1. Clone the repository**
 ```text
-git clone [https://github.com/](https://github.com/)[YOUR_GITHUB_USERNAME]/automatic-product-etl-pipeline.git
+git clone [https://github.com/](https://github.com/)[khanglm845]/automatic-product-etl-pipeline.git
 cd automatic-product-etl-pipeline
 ```
 **2. Set up Virtual Enviroment**
