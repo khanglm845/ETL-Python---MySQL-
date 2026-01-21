@@ -1,0 +1,33 @@
+----- PYTHON VERSION: 3.13.2 -----
+
+--- THƯ VIỆN CẦN TẢI ----
+
+pandas: Xử lý dữ liệu.
+
+sqlalchemy: Tạo kết nối DB chuyên nghiệp.
+
+pymysql: Driver để Python nói chuyện với MySQL.
+
+python-dotenv: Đọc file cấu hình bảo mật.
+
+--- PROJECT STRUCTURE ---
+
+data_pipeline_project/
+│
+├── data/                   <-- Nơi chứa file dữ liệu thô (nếu nguồn là file)
+│   ├── raw/                <-- File vừa tải về
+│   └── processed/          <-- File đã xử lý xong (lưu backup)
+│
+├── logs/                   <-- Nơi chứa file log chạy hàng ngày
+│
+├── src/                    <-- Nơi chứa Source Code
+│   ├── __init__.py
+│   ├── config.py           <-- File quản lý cấu hình (Load .env)
+│   ├── extract.py          <-- Code trích xuất dữ liệu
+│   ├── transform.py        <-- Code xử lý dữ liệu
+│   ├── load.py             <-- Code nạp vào MySQL
+│   └── main.py             <-- File điều phối chính (Chạy cái này)
+│
+├── .env                    <-- Lưu user/pass DB (TUYỆT ĐỐI KHÔNG UP LÊN GIT)
+├── .gitignore              <-- Cấu hình để Git bỏ qua file rác/.env
+└── requirements.txt        <-- Danh sách thư viện cần cài
