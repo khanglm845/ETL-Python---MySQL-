@@ -15,5 +15,4 @@ logs/
 *.log
 
 # (Tùy chọn) Bỏ qua dữ liệu thật nếu nó quá nặng hoặc nhạy cảm
-# Em có thể giữ lại file csv mẫu nhỏ, nhưng file lớn thì nên bỏ qua
 data/
