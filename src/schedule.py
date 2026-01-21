@@ -9,7 +9,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - [SCHEDULER] - %(me
 
 def job_wrapper():
     """Hàm bọc để gọi pipeline và ghi log"""
-    logging.info("⏰ ĐẾN GIỜ HOÀNG ĐẠO! Bắt đầu kích hoạt Pipeline...")
+    logging.info("⏰ ĐẾN GIỜ! Bắt đầu kích hoạt Pipeline...")
     try:
         run_pipeline()
         logging.info("✅ Pipeline chạy xong. Đang chờ lịch tiếp theo...")
